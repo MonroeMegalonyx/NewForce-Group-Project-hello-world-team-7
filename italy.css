@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+}
+
+/* Image Section */
+.city-wrapper {
+  justify-content: center;
+}
+
+/* Lists Section */
+h1 {
+  text-align: center;
+}
+
+.city-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists-wrapper {
+  justify-content: space-evenly;
+}
