@@ -2,3 +2,8 @@ footer {
     font-style: Arial;
     border-top: 1px solid rgb(248, 247, 247);
 }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
