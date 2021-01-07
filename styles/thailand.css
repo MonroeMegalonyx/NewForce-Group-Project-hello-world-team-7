@@ -1,30 +1,30 @@
+@import "nav.css";
 @import "footer.css";
 
 body {
-    background-color: salmon;
+    background-color: blanchedalmond;
 }
 
 h1 {
-    margin-right: 30em;
+    margin-right: 38em;
     text-align: left;
     position: absolute;
     bottom: 0;
-    
 }
 
 .thailand-header {
     position: relative;
 }
 
-.header-image {
-    
+.thailand-header img {
+    border-bottom: 3px solid rgb(104, 72, 72);
 }
-
 .container {
     display: flex;
     justify-content: space-evenly;
 }
 
 .three-compartments {
-    font-size: 2em;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
 }
