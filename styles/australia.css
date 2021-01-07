@@ -1,16 +1,23 @@
-/* Page Header components */
-header{
+@import "footer.css";
+@import "nav.css";
+
+body {
+    background-color: rgb(218, 101, 14);
+}
+
+/* Page Background Image components */
+.background{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header img{
+.background img{
     width: 100%;
 }
 
-header h1{
+.background h1{
     font-weight: bold;
     font-size: 64px;
 }
@@ -19,6 +26,7 @@ header h1{
 .main-container{
     display: flex;
     justify-content: space-evenly;
+    font-size: 2em;
 }
 
 /* Cities List components */
@@ -28,4 +36,19 @@ header h1{
 .landmarks{}
 
 /* Famous Citizens List components */
-.citizens{}
+.citizens__list ul{
+    display:flex;
+}
+
+.citizens__list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.citizens__list img{
+    height: 10vh;
+    border-radius: 50%;
+}
