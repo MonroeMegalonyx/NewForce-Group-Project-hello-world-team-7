@@ -5,26 +5,43 @@ body {
     background-color: blanchedalmond;
 }
 
+.body-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "head"
+                         "main";
+}
+
+.top-container {
+    grid-area: head;
+}
+
+.top-container-img {
+    border-bottom: 3px solid rgb(104, 72, 72);
+    width: 100%;
+}
+
 h1 {
-    margin-right: 38em;
     text-align: left;
+    padding-left: 8%;
     position: absolute;
     bottom: 0;
 }
 
-.thailand-header {
-    position: relative;
-}
-
-.thailand-header img {
-    border-bottom: 3px solid rgb(104, 72, 72);
-}
-.container {
+.bottom-container {
+    grid-area: main;
     display: flex;
     justify-content: space-evenly;
 }
 
 .three-compartments {
     font-size: 1.5em;
+    font-style: arial;
     color: rgb(0, 0, 0);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
 }
