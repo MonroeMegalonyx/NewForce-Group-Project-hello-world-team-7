@@ -1,0 +1,30 @@
+@import "footer.css";
+
+body {
+    background-color: salmon;
+}
+
+h1 {
+    margin-right: 30em;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.thailand-header {
+    position: relative;
+}
+
+.header-image {
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three-compartments {
+    font-size: 2em;
+}
