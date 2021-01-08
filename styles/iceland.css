@@ -3,18 +3,20 @@
 
 * {
     font-family: 'Times New Roman', Times, serif;
+    /* background-color: rgba(29, 29, 54, 0.308); */
 }
-img {
+/* img {
     height: 50vh;
     width: 60vw;
     justify-content: center;
-}
+    
+} */
 h1 {
     align-content: center;
 }
 
 h2 {
-    text-align: center;
+    align-items: center;
 }
 
 .container {
@@ -22,7 +24,36 @@ h2 {
     justify-content: space-evenly;
 }
 
-.main-content {
-    padding-left: 2em;
+.main-content-picture {
+    /* background-color: rgba(29, 29, 54, 0.308); */
+    align-content: center;
     width: 75%;
+    border: solid cadetblue;
+}
+
+.main-content {
+    /* text-align: center; */
+    /* order: (2,0,1) */
+    /* background-color: rgba(29, 29, 54, 0.308); */
+    background-color: rgb(201, 122, 122);
+    color: mintcream;
+    border: solid cadetblue;
+}
+
+/* header {
+    background-color: rgb(220, 252, 236); 
+    padding: 2em;
+    padding-bottom: 2em; 
+} */
+
+main {
+    background-color: rgba(29, 29, 54, 0.308);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    align-items: center;
 }
